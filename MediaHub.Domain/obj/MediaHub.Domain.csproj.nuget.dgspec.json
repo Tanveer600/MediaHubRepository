@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MediaHub\\MediaHub.Domain\\MediaHub.Domain.csproj": {}
+    "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\MediaHub.Domain.csproj": {}
   },
   "projects": {
-    "E:\\MediaHub\\MediaHub.Domain\\MediaHub.Domain.csproj": {
+    "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\MediaHub.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MediaHub\\MediaHub.Domain\\MediaHub.Domain.csproj",
+        "projectUniqueName": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\MediaHub.Domain.csproj",
         "projectName": "MediaHub.Domain",
-        "projectPath": "E:\\MediaHub\\MediaHub.Domain\\MediaHub.Domain.csproj",
+        "projectPath": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\MediaHub.Domain.csproj",
         "packagesPath": "C:\\Users\\HT\\.nuget\\packages\\",
-        "outputPath": "E:\\MediaHub\\MediaHub.Domain\\obj\\",
+        "outputPath": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

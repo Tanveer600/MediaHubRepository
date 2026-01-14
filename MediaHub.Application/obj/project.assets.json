@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MediaHub\\MediaHub.Application\\MediaHub.Application.csproj",
+      "projectUniqueName": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\MediaHub.Application.csproj",
       "projectName": "MediaHub.Application",
-      "projectPath": "E:\\MediaHub\\MediaHub.Application\\MediaHub.Application.csproj",
+      "projectPath": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\MediaHub.Application.csproj",
       "packagesPath": "C:\\Users\\HT\\.nuget\\packages\\",
-      "outputPath": "E:\\MediaHub\\MediaHub.Application\\obj\\",
+      "outputPath": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
