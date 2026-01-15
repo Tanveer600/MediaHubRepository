@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="DTOs\" />
     <Folder Include="Mappings\" />
-    <Folder Include="Services\" />
   </ItemGroup>
-
+	<ItemGroup>
+		<!-- Domain reference -->
+		<ProjectReference Include="..\MediaHub.Domain\MediaHub.Domain.csproj" />
+	</ItemGroup>
 </Project>
