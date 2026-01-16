@@ -1,10 +1,9 @@
-﻿using MediaHub.Application;
-using MediaHub.Domain;
-using MediaHub.Domain.Entities;
+﻿using MediaHub.Domain.Entities;
 using MediaHub.Domain.Enums;
 using MediaHub.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace MediaHub.Infrastructure.Data.Repositories
@@ -18,157 +17,67 @@ namespace MediaHub.Infrastructure.Data.Repositories
             _context = context;
         }
 
-        public async Task<ResponseDataModel> Create(Media model)
+        public async Task<Media> Create(Media model)
         {
-            var response = new ResponseDataModel();
-            try
-            {
-                // Ensure MediaType is valid
-                if (!Enum.IsDefined(typeof(MediaType), model.MediaType))
-                    model.MediaType = MediaType.Image; // Default fallback
-                    model.MediaType = MediaType.Audio;
-                    model.MediaType = MediaType.Video;  
-                var created = await _context.MediaItems.AddAsync(model);
-                await _context.SaveChangesAsync();
+            // Default MediaType if invalid
+            if (!Enum.IsDefined(typeof(MediaType), model.MediaType))
+                model.MediaType = MediaType.Image;
+                
 
-                response.IsSuccess = true;
-                response.Message = "Media created successfully";
-                response.Data = created.Entity;
-            }
-            catch (Exception ex)
-            {
-                response.IsSuccess = false;
-                response.Message = "Error creating media";
-                response.ErrorMessage = ex.Message;
-            }
+            await _context.MediaItems.AddAsync(model);
+            await _context.SaveChangesAsync();
 
-            return response;
+            return model;
         }
 
-        public async Task<ResponseDataModel> Read(long id)
+        public async Task<Media?> Read(long id)
         {
-            var response = new ResponseDataModel();
-            try
-            {
-                var media = await _context.MediaItems
-                    .Include(m => m.Category)
-                    .Include(m => m.User)
-                    .FirstOrDefaultAsync(m => m.Id == id);
-
-                if (media == null)
-                {
-                    response.IsSuccess = false;
-                    response.Message = "Media not found";
-                }
-                else
-                {
-                    response.IsSuccess = true;
-                    response.Data = media;
-                }
-            }
-            catch (Exception ex)
-            {
-                response.IsSuccess = false;
-                response.Message = "Error fetching media";
-                response.ErrorMessage = ex.Message;
-            }
-
-            return response;
+            return await _context.MediaItems
+                .Include(m => m.Category)
+                .Include(m => m.User)
+                .FirstOrDefaultAsync(m => m.Id == id);
         }
 
-        public async Task<ResponseDataModel> Update(Media model)
+        public async Task<Media> Update(Media model)
         {
-            var response = new ResponseDataModel();
-            try
-            {
-                var existing = await _context.MediaItems.FindAsync(model.Id);
-                if (existing == null)
-                {
-                    response.IsSuccess = false;
-                    response.Message = "Media not found";
-                    return response;
-                }
+            var existing = await _context.MediaItems.FindAsync(model.Id);
+            if (existing == null)
+                throw new Exception("Media not found"); // service will handle this
 
-                // Update properties
-                existing.Title = model.Title;
-                existing.Description = model.Description;
-                existing.FilePath = model.FilePath;
+            existing.Title = model.Title;
+            existing.Description = model.Description;
+            existing.FilePath = model.FilePath;
 
-                // Ensure MediaType is valid before updating
-                if (Enum.IsDefined(typeof(MediaType), model.MediaType))
-                    existing.MediaType = model.MediaType;
-                  
+            if (Enum.IsDefined(typeof(MediaType), model.MediaType))
+                existing.MediaType = model.MediaType;
 
-                existing.CategoryId = model.CategoryId;
+            existing.CategoryId = model.CategoryId;
+            existing.UserId= model.UserId;  
 
-                _context.MediaItems.Update(existing);
-                await _context.SaveChangesAsync();
+            _context.MediaItems.Update(existing);
+            await _context.SaveChangesAsync();
 
-                response.IsSuccess = true;
-                response.Message = "Media updated successfully";
-                response.Data = existing;
-            }
-            catch (Exception ex)
-            {
-                response.IsSuccess = false;
-                response.Message = "Error updating media";
-                response.ErrorMessage = ex.Message;
-            }
-
-            return response;
+            return existing;
         }
 
-        public async Task<ResponseDataModel> Delete(long id)
+        public async Task<bool> Delete(long id)
         {
-            var response = new ResponseDataModel();
-            try
-            {
-                var existing = await _context.MediaItems.FindAsync(id);
-                if (existing == null)
-                {
-                    response.IsSuccess = false;
-                    response.Message = "Media not found";
-                    return response;
-                }
+            var existing = await _context.MediaItems.FindAsync(id);
+            if (existing == null)
+                return false;
 
-                _context.MediaItems.Remove(existing);
-                await _context.SaveChangesAsync();
+            _context.MediaItems.Remove(existing);
+            await _context.SaveChangesAsync();
 
-                response.IsSuccess = true;
-                response.Message = "Media deleted successfully";
-                response.Data = existing;
-            }
-            catch (Exception ex)
-            {
-                response.IsSuccess = false;
-                response.Message = "Error deleting media";
-                response.ErrorMessage = ex.Message;
-            }
-
-            return response;
+            return true;
         }
 
-        public async Task<ResponseDataModel> GetAll()
+        public async Task<List<Media>> GetAll()
         {
-            var response = new ResponseDataModel();
-            try
-            {
-                var allMedia = await _context.MediaItems
-                    .Include(m => m.Category)
-                    .Include(m => m.User)
-                    .ToListAsync();
-
-                response.IsSuccess = true;
-                response.Data = allMedia;
-            }
-            catch (Exception ex)
-            {
-                response.IsSuccess = false;
-                response.Message = "Error fetching media list";
-                response.ErrorMessage = ex.Message;
-            }
-
-            return response;
+            return await _context.MediaItems
+                .Include(m => m.Category)
+                .Include(m => m.User)
+                .ToListAsync();
         }
     }
 }

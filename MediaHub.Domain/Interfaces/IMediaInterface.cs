@@ -11,10 +11,10 @@ namespace MediaHub.Domain.Interfaces
 {
     public interface IMediaInterface
     {
-        Task<ResponseDataModel> Create(Media model);
-        Task<ResponseDataModel> Read(long id);
-        Task<ResponseDataModel> Update(Media model);
-        Task<ResponseDataModel> Delete(long id);
-        Task<ResponseDataModel> GetAll();
+        Task<Media> Create(Media model);
+        Task<Media?> Read(long id);
+        Task<Media> Update(Media model);
+        Task<bool> Delete(long id);
+        Task<List<Media>> GetAll();
     }
 }

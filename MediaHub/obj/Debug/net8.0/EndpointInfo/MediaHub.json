@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Media"
+                "$ref": "#/components/schemas/CreateMediaDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Media"
+                "$ref": "#/components/schemas/CreateMediaDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Media"
+                "$ref": "#/components/schemas/CreateMediaDto"
               }
             }
           }
@@ -37,7 +37,7 @@
       }
     },
     "/api/Media/delete": {
-      "post": {
+      "delete": {
         "tags": [
           "Media"
         ],
@@ -101,17 +101,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Media"
+                "$ref": "#/components/schemas/UpdateMediaDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Media"
+                "$ref": "#/components/schemas/UpdateMediaDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Media"
+                "$ref": "#/components/schemas/UpdateMediaDto"
               }
             }
           }
@@ -165,28 +165,45 @@
   },
   "components": {
     "schemas": {
-      "Category": {
+      "CreateMediaDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "name": {
+          "title": {
             "type": "string",
             "nullable": true
           },
-          "mediaItems": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Media"
-            },
+          "description": {
+            "type": "string",
             "nullable": true
+          },
+          "filePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "mediaType": {
+            "$ref": "#/components/schemas/MediaType"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "categoryId": {
+            "type": "integer",
+            "format": "int64"
           }
         },
         "additionalProperties": false
       },
-      "Media": {
+      "MediaType": {
+        "enum": [
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "UpdateMediaDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -212,57 +229,9 @@
             "type": "integer",
             "format": "int64"
           },
-          "user": {
-            "$ref": "#/components/schemas/User"
-          },
           "categoryId": {
             "type": "integer",
             "format": "int64"
-          },
-          "category": {
-            "$ref": "#/components/schemas/Category"
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
-      "MediaType": {
-        "enum": [
-          1,
-          2,
-          3
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "User": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "userName": {
-            "type": "string",
-            "nullable": true
-          },
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "passwordHash": {
-            "type": "string",
-            "nullable": true
-          },
-          "mediaItems": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Media"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false

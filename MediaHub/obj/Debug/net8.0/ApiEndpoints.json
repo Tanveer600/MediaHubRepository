@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "MediaHub.Domain.Entities.Media",
+        "Name": "dto",
+        "Type": "MediaHub.Application.DTOs.CreateMediaDto",
         "IsRequired": true
       }
     ],
@@ -19,7 +19,7 @@
     "ContainingType": "MediaHub.Controllers.MediaController",
     "Method": "DeleteMedia",
     "RelativePath": "api/Media/delete",
-    "HttpMethod": "POST",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -66,8 +66,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "MediaHub.Domain.Entities.Media",
+        "Name": "dto",
+        "Type": "MediaHub.Application.DTOs.UpdateMediaDto",
         "IsRequired": true
       }
     ],

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MediaHub.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -48,7 +48,7 @@ namespace MediaHub.Infrastructure.Migrations
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FilePath = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    MediaType = table.Column<int>(type: "int", nullable: true),
+                    MediaType = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserId = table.Column<long>(type: "bigint", nullable: false),
                     CategoryId = table.Column<long>(type: "bigint", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)

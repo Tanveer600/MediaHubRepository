@@ -18,5 +18,12 @@ namespace MediaHub.Infrastructure.Data
         public DbSet<User> Users { get; set; }  
         public DbSet<Media> MediaItems { get; set; }
         public DbSet<Category> Categories { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Media>()
+                .Property(m => m.MediaType)
+                .HasConversion<string>(); // now database will store "Image", "Video", "Audio"
+        }
+
     }
 }

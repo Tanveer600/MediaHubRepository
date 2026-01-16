@@ -58,8 +58,8 @@ namespace MediaHub.Infrastructure.Migrations
                     b.Property<string>("FilePath")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("MediaType")
-                        .HasColumnType("int");
+                    b.Property<string>("MediaType")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
