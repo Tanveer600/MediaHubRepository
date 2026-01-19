@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaHub.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c8d3cd8822e5e952f8641bc833d5df950278540")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fcafd6f3cb9fe160d6c873dfbe7e207b8005e5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaHub.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaHub.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "E:\\angular\\MediaHubRepository\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Migrations\\20260116101309_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MediaHub.Infrastructure\\Migrations\\20260116101309_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|e:\\angular\\mediahubrepository\\mediahub.application\\services\\authservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|solutionrelative:mediahub.application\\services\\authservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|e:\\angular\\mediahubrepository\\mediahub.infrastructure\\data\\repositories\\mediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|solutionrelative:mediahub.infrastructure\\data\\repositories\\mediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|e:\\angular\\mediahubrepository\\mediahub.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|solutionrelative:mediahub.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|e:\\angular\\mediahubrepository\\mediahub.application\\dtos\\auth\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|solutionrelative:mediahub.application\\dtos\\auth\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|e:\\angular\\mediahubrepository\\mediahub.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|solutionrelative:mediahub.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|e:\\angular\\mediahubrepository\\mediahub.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|solutionrelative:mediahub.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|e:\\angular\\mediahubrepository\\mediahub.application\\services\\mediaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|solutionrelative:mediahub.application\\services\\mediaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFAF3209-9DE8-4C67-BDD1-B9BEAC14DB05}|MediaHub\\MediaHub.csproj|e:\\angular\\mediahubrepository\\mediahub\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFAF3209-9DE8-4C67-BDD1-B9BEAC14DB05}|MediaHub\\MediaHub.csproj|solutionrelative:mediahub\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|e:\\angular\\mediahubrepository\\mediahub.infrastructure\\data\\repositories\\mediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|solutionrelative:mediahub.infrastructure\\data\\repositories\\mediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|e:\\angular\\mediahubrepository\\mediahub.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|solutionrelative:mediahub.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|e:\\angular\\mediahubrepository\\mediahub.infrastructure\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|solutionrelative:mediahub.infrastructure\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|e:\\angular\\mediahubrepository\\mediahub.domain\\entities\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|solutionrelative:mediahub.domain\\entities\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|e:\\angular\\mediahubrepository\\mediahub.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|solutionrelative:mediahub.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFAF3209-9DE8-4C67-BDD1-B9BEAC14DB05}|MediaHub\\MediaHub.csproj|e:\\angular\\mediahubrepository\\mediahub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFAF3209-9DE8-4C67-BDD1-B9BEAC14DB05}|MediaHub\\MediaHub.csproj|solutionrelative:mediahub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|e:\\angular\\mediahubrepository\\mediahub.domain\\interfaces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|solutionrelative:mediahub.domain\\interfaces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|e:\\angular\\mediahubrepository\\mediahub.application\\interfaces\\imediaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,24 +47,20 @@
       "RelativeMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|solutionrelative:mediahub.domain\\interfaces\\imediainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|e:\\angular\\mediahubrepository\\mediahub.application\\dtos\\updatemediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|solutionrelative:mediahub.application\\dtos\\updatemediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|e:\\angular\\mediahubrepository\\mediahub.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|solutionrelative:mediahub.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|e:\\angular\\mediahubrepository\\mediahub.application\\dtos\\createmediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|solutionrelative:mediahub.application\\dtos\\createmediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|e:\\angular\\mediahubrepository\\mediahub.application\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C66BA3E-5FB1-440A-8465-AB24499EA08C}|MediaHub.Application\\MediaHub.Application.csproj|solutionrelative:mediahub.application\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|e:\\angular\\mediahubrepository\\mediahub.infrastructure\\data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|solutionrelative:mediahub.infrastructure\\data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|e:\\angular\\mediahubrepository\\mediahub.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBB638B-E35F-4ECD-B558-1B68F2DA4F8B}|MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj|solutionrelative:mediahub.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|e:\\angular\\mediahubrepository\\mediahub.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|solutionrelative:mediahub.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|e:\\angular\\mediahubrepository\\mediahub.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{176058F0-745F-4408-BCEE-EAF042A63B5F}|MediaHub.Domain\\MediaHub.Domain.csproj|solutionrelative:mediahub.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFAF3209-9DE8-4C67-BDD1-B9BEAC14DB05}|MediaHub\\MediaHub.csproj|e:\\angular\\mediahubrepository\\mediahub\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFAF3209-9DE8-4C67-BDD1-B9BEAC14DB05}|MediaHub\\MediaHub.csproj|solutionrelative:mediahub\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,19 +87,140 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260116101309_initial.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Migrations\\20260116101309_initial.cs",
-              "RelativeDocumentMoniker": "MediaHub.Infrastructure\\Migrations\\20260116101309_initial.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Migrations\\20260116101309_initial.cs",
-              "RelativeToolTip": "MediaHub.Infrastructure\\Migrations\\20260116101309_initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Title": "AuthService .cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Services\\AuthService .cs",
+              "RelativeDocumentMoniker": "MediaHub.Application\\Services\\AuthService .cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Services\\AuthService .cs",
+              "RelativeToolTip": "MediaHub.Application\\Services\\AuthService .cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T10:13:09.663Z",
+              "WhenOpened": "2026-01-19T10:57:53.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "MediaHub.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "MediaHub.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T10:31:18.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\DTOs\\Auth\\Auth.cs",
+              "RelativeDocumentMoniker": "MediaHub.Application\\DTOs\\Auth\\Auth.cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\DTOs\\Auth\\Auth.cs",
+              "RelativeToolTip": "MediaHub.Application\\DTOs\\Auth\\Auth.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T10:25:30.399Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "MediaHub.Domain\\Entities\\User.cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "MediaHub.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T10:23:06.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MediaRepository.cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Data\\Repositories\\MediaRepository.cs",
+              "RelativeDocumentMoniker": "MediaHub.Infrastructure\\Data\\Repositories\\MediaRepository.cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Data\\Repositories\\MediaRepository.cs",
+              "RelativeToolTip": "MediaHub.Infrastructure\\Data\\Repositories\\MediaRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAwwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T08:14:19.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MediaService.cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Services\\MediaService.cs",
+              "RelativeDocumentMoniker": "MediaHub.Application\\Services\\MediaService.cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Services\\MediaService.cs",
+              "RelativeToolTip": "MediaHub.Application\\Services\\MediaService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwGAAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:47:51.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "MediaHub.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "MediaHub.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:42:43.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MediaHub.Application\\Services\\UserService.cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "MediaHub.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswDgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:42:32.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\DTOs\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "MediaHub.Application\\DTOs\\UserLoginDto.cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\DTOs\\UserLoginDto.cs",
+              "RelativeToolTip": "MediaHub.Application\\DTOs\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:40:44.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "MediaHub.Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "MediaHub.Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:22:18.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserInterface.cs",
+              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Interfaces\\IUserInterface.cs",
+              "RelativeDocumentMoniker": "MediaHub.Domain\\Interfaces\\IUserInterface.cs",
+              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Interfaces\\IUserInterface.cs",
+              "RelativeToolTip": "MediaHub.Domain\\Interfaces\\IUserInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:19:59.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "MediaController.cs",
               "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub\\Controllers\\MediaController.cs",
               "RelativeDocumentMoniker": "MediaHub\\Controllers\\MediaController.cs",
@@ -111,160 +232,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MediaRepository.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Data\\Repositories\\MediaRepository.cs",
-              "RelativeDocumentMoniker": "MediaHub.Infrastructure\\Data\\Repositories\\MediaRepository.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Data\\Repositories\\MediaRepository.cs",
-              "RelativeToolTip": "MediaHub.Infrastructure\\Data\\Repositories\\MediaRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T09:00:40.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Data\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "MediaHub.Infrastructure\\Data\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Data\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "MediaHub.Infrastructure\\Data\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T08:59:55.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IMediaInterface.cs",
               "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Interfaces\\IMediaInterface.cs",
               "RelativeDocumentMoniker": "MediaHub.Domain\\Interfaces\\IMediaInterface.cs",
               "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Interfaces\\IMediaInterface.cs",
               "RelativeToolTip": "MediaHub.Domain\\Interfaces\\IMediaInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwBAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T08:57:31.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IMediaService.cs",
               "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Interfaces\\IMediaService.cs",
               "RelativeDocumentMoniker": "MediaHub.Application\\Interfaces\\IMediaService.cs",
               "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Interfaces\\IMediaService.cs",
               "RelativeToolTip": "MediaHub.Application\\Interfaces\\IMediaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T08:39:07.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateMediaDto.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\DTOs\\CreateMediaDto.cs",
-              "RelativeDocumentMoniker": "MediaHub.Application\\DTOs\\CreateMediaDto.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\DTOs\\CreateMediaDto.cs",
-              "RelativeToolTip": "MediaHub.Application\\DTOs\\CreateMediaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T12:20:14.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Media.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Entities\\Media.cs",
-              "RelativeDocumentMoniker": "MediaHub.Domain\\Entities\\Media.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Entities\\Media.cs",
-              "RelativeToolTip": "MediaHub.Domain\\Entities\\Media.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA6wBMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T06:49:05.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MediaService.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Services\\MediaService.cs",
-              "RelativeDocumentMoniker": "MediaHub.Application\\Services\\MediaService.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\Services\\MediaService.cs",
-              "RelativeToolTip": "MediaHub.Application\\Services\\MediaService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T11:12:45.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub\\Program.cs",
-              "RelativeDocumentMoniker": "MediaHub\\Program.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub\\Program.cs",
-              "RelativeToolTip": "MediaHub\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T07:54:53.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "MediaHub.Domain\\Common\\BaseEntity.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "MediaHub.Domain\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T07:14:13.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "MediaHub.Domain\\Entities\\User.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "MediaHub.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T06:49:06.341Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Category.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "MediaHub.Domain\\Entities\\Category.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "MediaHub.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T06:49:02.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "MediaHub.Infrastructure\\Data\\AppDbContext.cs",
               "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeToolTip": "MediaHub.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA7wBkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T06:41:39.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateMediaDto.cs",
-              "DocumentMoniker": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\DTOs\\UpdateMediaDto.cs",
-              "RelativeDocumentMoniker": "MediaHub.Application\\DTOs\\UpdateMediaDto.cs",
-              "ToolTip": "E:\\angular\\MediaHubRepository\\MediaHub.Application\\DTOs\\UpdateMediaDto.cs",
-              "RelativeToolTip": "MediaHub.Application\\DTOs\\UpdateMediaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T06:47:35.093Z"
             }
           ]
         }

@@ -34,6 +34,9 @@
             "projectReferences": {
               "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\MediaHub.Domain.csproj": {
                 "projectPath": "E:\\angular\\MediaHubRepository\\MediaHub.Domain\\MediaHub.Domain.csproj"
+              },
+              "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj": {
+                "projectPath": "E:\\angular\\MediaHubRepository\\MediaHub.Infrastructure\\MediaHub.Infrastructure.csproj"
               }
             }
           }
@@ -53,6 +56,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -278,6 +287,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

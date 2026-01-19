@@ -8,5 +8,6 @@ namespace MediaHub.Infrastructure.Data.Repositories
 {
     public class CategoryRepository
     {
+
     }
 }

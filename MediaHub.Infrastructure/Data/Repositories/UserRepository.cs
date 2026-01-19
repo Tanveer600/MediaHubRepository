@@ -27,16 +27,24 @@ namespace MediaHub.Infrastructure.Data.Repositories
            return user.Entity;
         }
 
-        public async Task Delete(long id)
+        public async Task<bool> Delete(long id)
         {
-            var user = await _context.Users.FindAsync(id);
-            if (user != null)
+          
             {
-                _context.Users.Remove(user);
-                await _context.SaveChangesAsync();
+              var userList=await  _context.Users.FindAsync(id);
+                if(userList==null)
+                {
+                    _context.Users.Remove(userList);
+                    await _context.SaveChangesAsync();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
-           
         }
+
         public async Task<List<User>> GetAll()
         {
             return await _context.Users.ToListAsync();
@@ -51,17 +59,26 @@ namespace MediaHub.Infrastructure.Data.Repositories
                 userlogin.Email = userlogin.Email;
                 userlogin.PasswordHash = userlogin.PasswordHash;
             }
+            return userlogin!;  
 
         }
 
-        public Task<User?> Read(long id)
+        public async Task<User?> Read(long id)
         {
-            throw new NotImplementedException();
+            return await _context.Users.FindAsync(id).AsTask();   
         }
 
-        public Task<User> Update(User model)
+        public async Task<User> Update(User model)
         {
-            throw new NotImplementedException();
+           var userUpdate=await _context.Users.FirstOrDefaultAsync(x=>x.Id==model.Id);
+            if(userUpdate!=null)
+            {
+                userUpdate.UserName = model.UserName;
+                userUpdate.Email = model.Email;
+                userUpdate.PasswordHash = model.PasswordHash;
+                await _context.SaveChangesAsync();
+            }
+            return userUpdate!; 
         }
     }
 }

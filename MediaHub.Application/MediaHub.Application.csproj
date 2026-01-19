@@ -9,8 +9,13 @@
   <ItemGroup>
     <Folder Include="Mappings\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
 	<ItemGroup>
 		<!-- Domain reference -->
 		<ProjectReference Include="..\MediaHub.Domain\MediaHub.Domain.csproj" />
+		<ProjectReference Include="..\MediaHub.Infrastructure\MediaHub.Infrastructure.csproj" />
 	</ItemGroup>
 </Project>

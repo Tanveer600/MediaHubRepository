@@ -24,6 +24,18 @@ namespace MediaHub.Infrastructure.Data
                 .Property(m => m.MediaType)
                 .HasConversion<string>(); // now database will store "Image", "Video", "Audio"
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.Role)
+                .WithMany(r => r.Users)
+                .HasForeignKey(u => u.RoleId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Role>()
+                .HasIndex(r => r.Name)
+                .IsUnique();
+        }
 
     }
 }
