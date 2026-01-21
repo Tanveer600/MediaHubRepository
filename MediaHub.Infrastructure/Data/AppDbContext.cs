@@ -18,24 +18,35 @@ namespace MediaHub.Infrastructure.Data
         public DbSet<User> Users { get; set; }  
         public DbSet<Media> MediaItems { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Role> Roles { get; set; }
+
+
+
+      
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Media>()
+            
+            modelBuilder.Entity<Media>()   // MediaType enum → string in DB
                 .Property(m => m.MediaType)
-                .HasConversion<string>(); // now database will store "Image", "Video", "Audio"
-        }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<User>()
+                .HasConversion<string>();
+
+            
+            modelBuilder.Entity<User>()   // User → Role relationship
                 .HasOne(u => u.Role)
                 .WithMany(r => r.Users)
                 .HasForeignKey(u => u.RoleId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<Role>()
+            
+            modelBuilder.Entity<Role>()     //  Unique Role Name
                 .HasIndex(r => r.Name)
                 .IsUnique();
+            // ✅ Seed default roles
+            modelBuilder.Entity<Role>().HasData(
+                new Role { Id = 1, Name = "Admin" },
+                new Role { Id = 2, Name = "User" }   // <- ye default role
+            );
         }
-
+       
     }
 }

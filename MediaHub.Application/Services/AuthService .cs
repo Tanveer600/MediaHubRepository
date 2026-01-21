@@ -64,7 +64,7 @@ namespace MediaHub.Application.Services
             };
         }
 
-       
+
         //  JWT TOKEN
         private AuthResponseDto GenerateJwtToken(User user)
         {

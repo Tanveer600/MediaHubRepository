@@ -1,11 +1,3 @@
-E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.csproj.AssemblyReference.cache
-E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\rpswa.dswa.cache.json
-E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.GeneratedMSBuildEditorConfig.editorconfig
-E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.AssemblyInfoInputs.cache
-E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.AssemblyInfo.cs
-E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.csproj.CoreCompileInputs.cache
-E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.MvcApplicationPartsAssemblyInfo.cache
-E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.sourcelink.json
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\appsettings.Development.json
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\appsettings.json
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\MediaHub.staticwebassets.endpoints.json
@@ -16,7 +8,9 @@ E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\MediaHub.dll
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\MediaHub.pdb
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\Azure.Core.dll
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\Azure.Identity.dll
+E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\BCrypt.Net-Next.dll
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\Humanizer.dll
+E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -128,6 +122,15 @@ E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\MediaHub.Infrastructure.
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\MediaHub.Infrastructure.pdb
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\MediaHub.Application.pdb
 E:\angular\MediaHubRepository\MediaHub\bin\Debug\net8.0\MediaHub.Domain.pdb
+E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.csproj.AssemblyReference.cache
+E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.GeneratedMSBuildEditorConfig.editorconfig
+E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.AssemblyInfoInputs.cache
+E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.AssemblyInfo.cs
+E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.csproj.CoreCompileInputs.cache
+E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.MvcApplicationPartsAssemblyInfo.cs
+E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.MvcApplicationPartsAssemblyInfo.cache
+E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\MediaHub.sourcelink.json
 E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\rjimswa.dswa.cache.json
 E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 E:\angular\MediaHubRepository\MediaHub\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

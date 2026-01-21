@@ -18,14 +18,20 @@ namespace MediaHub.Infrastructure.Data.Repositories
         }
         public async Task<User> Create(User model)
         {
-          var user=await  _context.Users.AddAsync(model);  
-            if(user!=null)
-            {
-                await _context.SaveChangesAsync();
-              
-            }
-           return user.Entity;
+            var entry = await _context.Users.AddAsync(model);
+            await _context.SaveChangesAsync();
+
+            // ✅ Console output BEFORE return
+            Console.WriteLine($"User Created Successfully:");
+            Console.WriteLine($"Id: {entry.Entity.Id}");
+            Console.WriteLine($"UserName: {entry.Entity.UserName}");
+            Console.WriteLine($"Email: {entry.Entity.Email}");
+            Console.WriteLine($"ID: {entry.Entity.RoleId}");
+            Console.WriteLine($"RoleId: {entry.Entity.RoleId}");
+
+            return entry.Entity;
         }
+
 
         public async Task<bool> Delete(long id)
         {
