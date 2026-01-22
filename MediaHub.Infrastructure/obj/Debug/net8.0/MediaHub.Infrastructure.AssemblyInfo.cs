@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaHub.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b1112f9ce60253785f227cc7ac013a6b32e697d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a8fd9989d9667c49220b21dd2c31d1869470514")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaHub.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaHub.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
